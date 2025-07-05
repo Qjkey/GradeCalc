@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link href="files/styles.css" rel="stylesheet" type="text/css">
+    <link href="files/overlay.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="site">
+        <div class="main">
+            <div class="footer">
+                <p class="title old_versions_footer">Старые версии</p>
+            </div>
+            <div class="site">
+                <!-- ОВЕРЛЕИ -->
+                <div class="overlay" id="modalOverlay">
+                    <div class="modal" id="modal1">
+                        <h2>Версия v0.0</h2>
+                        <p><ul>
+                            <li>Калькулятор создан</li>
+                            <li>Появился сайт</li>
+                        </ul></p>
+                        <button class="close-button" data-close-modal>Закрыть</button>
+                    </div>
+                    <div class="modal" id="modal2">
+                        <h2>Версия v0.1</h2>
+                        <p><ul>
+                            <li>Увеличины заголовки вкладок</li>
+                            <li>Обновлена информация</li>
+                        </ul></p>
+                        <button class="close-button" data-close-modal>Закрыть</button>
+                    </div>
+                    <div class="modal" id="modal3">
+                        <h2>Версия v0.2</h2>
+                        <p><ul>
+                            <li>В разделе "Информация" добавили нового разработчика - CoffeeBreak</li>
+                            <li>Заголовки разделов поменяли свой размер</li>
+                            <li>В разделе "Информация" разработчики получили отдельную строку</li>
+                            <li>Кнопки "<"(которые служили чтобы выйти из раздела) теперь в них появилось слово "Назад"(< Назад)</li>
+                            <li>Появилась возможность добавлять оценки за контрольную(оценки которые весят 50 баллов)</li>
+                        </ul></p>
+                        <button class="close-button" data-close-modal>Закрыть</button>
+                    </div>
+                    <div class="modal" id="modal4">
+                        <h2>Версия v0.3</h2>
+                        <p><ul>
+                            <li>Заголовки разделов вновь увеличены</li>
+                            <li>Кнопка назад перестала быть "< Назад", и стала просто "Назад"</li>
+                            <li>На главном экране теперь отображается номер версии</li>
+                            <li>На главном экране увеличены кнопки</li>
+                            <li>Теперь кнопка "Запуск", стала кнопкой "Запустить"</li>
+                        </ul></p>
+                        <button class="close-button" data-close-modal>Закрыть</button>
+                    </div>
+                    <div class="modal" id="modal5">
+                        <h2>Версия v0.4</h2>
+                        <p><ul>
+                            <li>Кнопки на главном экране обрели промежутки между собой и логотипом</li>
+                            <li>В разделе «Информация» заголовок теперь вверху, надпись обновления внизу, а информация и разработчики в центре</li>
+                            <li>Свитчер «Контрольная» стал больше</li>
+                            <li>В разделе «Калькулятор» кнопки «Посчитать» и «Очистить» получили промежутки между собой</li>
+                        </ul></p>
+                        <button class="close-button" data-close-modal>Закрыть</button>
+                    </div>
+                    <div class="modal" id="modal6">
+                        <h2>Версия v0.5</h2>
+                        <p><ul>
+                            <li>Промежутки между кнопками на главной уменьшены</li>
+                            <li>Надпись с разработчиками стала жирным текстом</li>
+                            <li>Заголовки разделов вновь увеличены</li>
+                            <li>Цвета кнопок с оценками изменены</li>
+                            <li>Размер кнопок с оценками увеличен</li>
+                            <li>Цвета кнопок с оценками изменены</li>
+                            <li>Расположения элементов в информации изменились</li>
+                            <li>Анимация появления оценки</li>
+                            <li>Расположения элементов в калькуляторе изменились</li>
+                        </ul></p>
+                        <button class="close-button" data-close-modal>Закрыть</button>
+                    </div>
+                    <div class="modal" id="modal7">
+                        <h2>Версия v0.6</h2>
+                        <p><ul>
+                            <li>Заголовки разделов вновь увеличены(это последний раз)</li>
+                            <li>Цвета кнопок оценок вновь изменены</li>
+                            <li>Размер свитчера «Контрольная» увеличен</li>
+                            <li>Размер надписи с результатом уменьшен</li>
+                            <li>Заголовки разделов стали жирным шрифтом</li>
+                        </ul></p>
+                        <button class="close-button" data-close-modal>Закрыть</button>
+                    </div>
+                    <div class="modal" id="modal8">
+                        <h2>Версия v0.7</h2>
+                        <p><ul>
+                            <li>Логотип стал больше, а название стала жирным шрифтом</li>
+                            <li>Кнопки на главном экране стали одинаковыми</li>
+                            <li>Кнопки на экране калькулятора стали также одинаковыми</li>
+                        </ul></p>
+                        <button class="close-button" data-close-modal>Закрыть</button>
+                    </div>
+                    <div class="modal" id="modal9">
+                        <h2>Версия v0.8</h2>
+                        <p><ul>
+                            <li>Шрифт названия на главном экране изменён</li>
+                            <li>Цвета кнопок добавления оценок изменены</li>
+                            <li>Шрифт всего проекта изменён</li>
+                            <li>Кнопки добавления оценок стали круглые</li>
+                            <li>Заголовки вкладок поменялись</li>
+                            <li>Кнопки назад получили отступы от краёв</li>
+                        </ul></p>
+                        <button class="close-button" data-close-modal>Закрыть</button>
+                    </div>
+                    <div class="modal" id="modal10">
+                        <h2>Версия v0.9</h2>
+                        <p><ul>
+                            <li>Главный экран удалён</li>
+                            <li>Добавлен "Navigation bar" для перемещения между вкладками</li>
+                            <li>Надпись "Калькулятор" заменена на "GradeCalc"</li>
+                            <li>Изменена надпись с разработчиками</li>
+                            <li>Изменено описание приложения во вкладке "Информация"</li>
+                            <li>Удалены кнопки "Назад"</li>
+                        </ul></p>
+                        <button class="close-button" data-close-modal>Закрыть</button>
+                    </div>
+                    <div class="modal" id="modal11">
+                        <h2>Версия v1.0</h2>
+                        <p><ul>
+                            <li>Полностью переделан интерфейс</li>
+                            <li>Шрифт интерфейса (кроме заголовков) изменён</li>
+                            <li>Кнопки оценок получили новую форму</li>
+                            <li>Добавлен свитчер оценок "Лабораторная" для оценок 20 баллов</li>
+                            <li>Добавлена кнопка "Удалить", она удаляет последнюю набранную оценку/оценки</li>
+                            <li>Добавлен раздел "Настройки" в нём можно включить оценку "1" и сменить тему</li>
+                            <li>Добавлена светлая тема</li>
+                            <li>Добавлена оценка "1" её можно включить в настройках</li>
+                            <li>Сменены иконки</li>
+                            <li>Обновлены кнопки "Посчитать" и "Очистить"</li>
+                            <li>Обновлён раздел информации</li>
+                        </ul></p>
+                        <button class="close-button" data-close-modal>Закрыть</button>
+                    </div>
+                </div>
+                <!-- ВЕСЬ САЙТ -->
+
+                <div class="text_block">
+                    <p class="subtitle">v1.0 - v0.0</p>
+                    <p class="text">Версия GradeCalc v1.0 последняя, после неё я перестану обновлять его, но до неё выходило ещё много версий. Их скачать вы можете прямо здесь.</p>
+                </div>
+                <hr class="separatorcolor">
+                <div class="text_block">
+                    <img width="230px" height="230px" src="files\old\v0.0.png">
+                    <div class="menu_buttons_for_versions">
+                        <a href="files\apk files\GradeCalc v0.0.apk" style="text-decoration: none;"><button style="display: flex; align-items: center;"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.00265" height="23.85134" viewBox="0,0,100.00265,100.85134"><g transform="translate(-191.49867,-133.40049)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="none" fill-rule="nonzero" stroke="#e6e6e6" stroke-width="9" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M194.99867,222.09951c0,0 30.73563,0.65232 45.81672,0.65232c14.91802,0 44.18593,-0.65232 44.18593,-0.65232"/><path d="M240.18482,221.22775v-83.32726"/><path d="M203.74573,186.7794c0,0 9.17891,4.42522 19.66383,14.59382c10.04738,9.74425 14.63386,19.70387 14.63386,19.70387"/><path d="M242.09943,221.07709c0,0 8.22665,-12.3662 16.83406,-21.39708c9.26753,-9.72347 17.46362,-12.90061 17.46362,-12.90061"/></g></g></svg></div>
+                            <span style="margin-left: 14px;">Установить v0.0</span></button>
+                        </a>
+                        <button style="display: flex; align-items: center; margin-left: 5px;" class="button_small" id="openModalBtn1" data-modal="modal1"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.25217" height="24.48233" viewBox="0,0,105.25217,105.48233"><g transform="translate(-187.37391,-127.25743)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill-rule="nonzero" stroke="#ffffff" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M191.87391,180.12801c0,-30.45136 14.55712,-48.43474 48.11175,-48.37041c35.36688,0.0678 48.851,18.17864 48.11174,48.37041c-0.75808,30.96049 -17.9202,47.84858 -48.11174,48.11175c-29.67536,0.25867 -48.11175,-17.40172 -48.11175,-48.11175z" fill="none" stroke-width="9" stroke-linecap="butt"/><path d="M240.15569,202.0983c0,0 -2.35748,-2.62566 -2.35748,-15.21646c0,-12.44357 2.35748,-15.43077 2.35748,-15.43077" fill="none" stroke-width="9" stroke-linecap="round"/><path d="M235.46245,155.78973c0,-2.48528 2.01472,-4.5 4.5,-4.5c2.48528,0 4.5,2.01472 4.5,4.5c0,2.48528 -2.01472,4.5 -4.5,4.5c-2.48528,0 -4.5,-2.01472 -4.5,-4.5z" fill="#ffffff" stroke-width="0.5" stroke-linecap="butt"/></g></g></svg></div></button>
+                    </div>
+                </div>
+                <hr class="separatorcolor">
+                <div class="text_block">
+                    <img width="230px" height="230px" src="files\old\v0.1.png">
+                    <div class="menu_buttons_for_versions">
+                        <a href="files\apk files\GradeCalc v0.1.apk" style="text-decoration: none;"><button style="display: flex; align-items: center;"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.00265" height="23.85134" viewBox="0,0,100.00265,100.85134"><g transform="translate(-191.49867,-133.40049)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="none" fill-rule="nonzero" stroke="#e6e6e6" stroke-width="9" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M194.99867,222.09951c0,0 30.73563,0.65232 45.81672,0.65232c14.91802,0 44.18593,-0.65232 44.18593,-0.65232"/><path d="M240.18482,221.22775v-83.32726"/><path d="M203.74573,186.7794c0,0 9.17891,4.42522 19.66383,14.59382c10.04738,9.74425 14.63386,19.70387 14.63386,19.70387"/><path d="M242.09943,221.07709c0,0 8.22665,-12.3662 16.83406,-21.39708c9.26753,-9.72347 17.46362,-12.90061 17.46362,-12.90061"/></g></g></svg></div>
+                            <span style="margin-left: 14px;">Установить v0.1</span></button>
+                        </a>
+                        <button style="display: flex; align-items: center; margin-left: 5px;" class="button_small" id="openModalBtn2" data-modal="modal2"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.25217" height="24.48233" viewBox="0,0,105.25217,105.48233"><g transform="translate(-187.37391,-127.25743)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill-rule="nonzero" stroke="#ffffff" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M191.87391,180.12801c0,-30.45136 14.55712,-48.43474 48.11175,-48.37041c35.36688,0.0678 48.851,18.17864 48.11174,48.37041c-0.75808,30.96049 -17.9202,47.84858 -48.11174,48.11175c-29.67536,0.25867 -48.11175,-17.40172 -48.11175,-48.11175z" fill="none" stroke-width="9" stroke-linecap="butt"/><path d="M240.15569,202.0983c0,0 -2.35748,-2.62566 -2.35748,-15.21646c0,-12.44357 2.35748,-15.43077 2.35748,-15.43077" fill="none" stroke-width="9" stroke-linecap="round"/><path d="M235.46245,155.78973c0,-2.48528 2.01472,-4.5 4.5,-4.5c2.48528,0 4.5,2.01472 4.5,4.5c0,2.48528 -2.01472,4.5 -4.5,4.5c-2.48528,0 -4.5,-2.01472 -4.5,-4.5z" fill="#ffffff" stroke-width="0.5" stroke-linecap="butt"/></g></g></svg></div></button>
+                    </div>
+                </div>
+                <hr class="separatorcolor">
+                <div class="text_block">
+                    <img width="230px" height="230px" src="files\old\v0.2.png">
+                    <div class="menu_buttons_for_versions">
+                        <a href="files\apk files\GradeCalc v0.2.apk" style="text-decoration: none;"><button style="display: flex; align-items: center;"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.00265" height="23.85134" viewBox="0,0,100.00265,100.85134"><g transform="translate(-191.49867,-133.40049)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="none" fill-rule="nonzero" stroke="#e6e6e6" stroke-width="9" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M194.99867,222.09951c0,0 30.73563,0.65232 45.81672,0.65232c14.91802,0 44.18593,-0.65232 44.18593,-0.65232"/><path d="M240.18482,221.22775v-83.32726"/><path d="M203.74573,186.7794c0,0 9.17891,4.42522 19.66383,14.59382c10.04738,9.74425 14.63386,19.70387 14.63386,19.70387"/><path d="M242.09943,221.07709c0,0 8.22665,-12.3662 16.83406,-21.39708c9.26753,-9.72347 17.46362,-12.90061 17.46362,-12.90061"/></g></g></svg></div>
+                            <span style="margin-left: 14px;">Установить v0.2</span></button>
+                        </a>
+                        <button style="display: flex; align-items: center; margin-left: 5px;" class="button_small" id="openModalBtn3" data-modal="modal3"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.25217" height="24.48233" viewBox="0,0,105.25217,105.48233"><g transform="translate(-187.37391,-127.25743)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill-rule="nonzero" stroke="#ffffff" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M191.87391,180.12801c0,-30.45136 14.55712,-48.43474 48.11175,-48.37041c35.36688,0.0678 48.851,18.17864 48.11174,48.37041c-0.75808,30.96049 -17.9202,47.84858 -48.11174,48.11175c-29.67536,0.25867 -48.11175,-17.40172 -48.11175,-48.11175z" fill="none" stroke-width="9" stroke-linecap="butt"/><path d="M240.15569,202.0983c0,0 -2.35748,-2.62566 -2.35748,-15.21646c0,-12.44357 2.35748,-15.43077 2.35748,-15.43077" fill="none" stroke-width="9" stroke-linecap="round"/><path d="M235.46245,155.78973c0,-2.48528 2.01472,-4.5 4.5,-4.5c2.48528,0 4.5,2.01472 4.5,4.5c0,2.48528 -2.01472,4.5 -4.5,4.5c-2.48528,0 -4.5,-2.01472 -4.5,-4.5z" fill="#ffffff" stroke-width="0.5" stroke-linecap="butt"/></g></g></svg></div></button>
+                    </div>
+                </div>
+                <hr class="separatorcolor">
+                <div class="text_block">
+                    <img width="230px" height="230px" src="files\old\v0.3.png">
+                    <div class="menu_buttons_for_versions">
+                        <a href="files\apk files\GradeCalc v0.3.apk" style="text-decoration: none;"><button style="display: flex; align-items: center;"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.00265" height="23.85134" viewBox="0,0,100.00265,100.85134"><g transform="translate(-191.49867,-133.40049)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="none" fill-rule="nonzero" stroke="#e6e6e6" stroke-width="9" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M194.99867,222.09951c0,0 30.73563,0.65232 45.81672,0.65232c14.91802,0 44.18593,-0.65232 44.18593,-0.65232"/><path d="M240.18482,221.22775v-83.32726"/><path d="M203.74573,186.7794c0,0 9.17891,4.42522 19.66383,14.59382c10.04738,9.74425 14.63386,19.70387 14.63386,19.70387"/><path d="M242.09943,221.07709c0,0 8.22665,-12.3662 16.83406,-21.39708c9.26753,-9.72347 17.46362,-12.90061 17.46362,-12.90061"/></g></g></svg></div>
+                            <span style="margin-left: 14px;">Установить v0.3</span></button>
+                        </a>
+                        <button style="display: flex; align-items: center; margin-left: 5px;" class="button_small" id="openModalBtn4" data-modal="modal4"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.25217" height="24.48233" viewBox="0,0,105.25217,105.48233"><g transform="translate(-187.37391,-127.25743)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill-rule="nonzero" stroke="#ffffff" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M191.87391,180.12801c0,-30.45136 14.55712,-48.43474 48.11175,-48.37041c35.36688,0.0678 48.851,18.17864 48.11174,48.37041c-0.75808,30.96049 -17.9202,47.84858 -48.11174,48.11175c-29.67536,0.25867 -48.11175,-17.40172 -48.11175,-48.11175z" fill="none" stroke-width="9" stroke-linecap="butt"/><path d="M240.15569,202.0983c0,0 -2.35748,-2.62566 -2.35748,-15.21646c0,-12.44357 2.35748,-15.43077 2.35748,-15.43077" fill="none" stroke-width="9" stroke-linecap="round"/><path d="M235.46245,155.78973c0,-2.48528 2.01472,-4.5 4.5,-4.5c2.48528,0 4.5,2.01472 4.5,4.5c0,2.48528 -2.01472,4.5 -4.5,4.5c-2.48528,0 -4.5,-2.01472 -4.5,-4.5z" fill="#ffffff" stroke-width="0.5" stroke-linecap="butt"/></g></g></svg></div></button>
+                    </div>
+                </div>
+                <hr class="separatorcolor">
+                <div class="text_block">
+                    <img width="230px" height="230px" src="files\old\v0.4.png">
+                    <div class="menu_buttons_for_versions">
+                        <a href="files\apk files\GradeCalc v0.4.apk" style="text-decoration: none;"><button style="display: flex; align-items: center;"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.00265" height="23.85134" viewBox="0,0,100.00265,100.85134"><g transform="translate(-191.49867,-133.40049)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="none" fill-rule="nonzero" stroke="#e6e6e6" stroke-width="9" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M194.99867,222.09951c0,0 30.73563,0.65232 45.81672,0.65232c14.91802,0 44.18593,-0.65232 44.18593,-0.65232"/><path d="M240.18482,221.22775v-83.32726"/><path d="M203.74573,186.7794c0,0 9.17891,4.42522 19.66383,14.59382c10.04738,9.74425 14.63386,19.70387 14.63386,19.70387"/><path d="M242.09943,221.07709c0,0 8.22665,-12.3662 16.83406,-21.39708c9.26753,-9.72347 17.46362,-12.90061 17.46362,-12.90061"/></g></g></svg></div>
+                            <span style="margin-left: 14px;">Установить v0.4</span></button>
+                        </a>
+                        <button style="display: flex; align-items: center; margin-left: 5px;" class="button_small" id="openModalBtn5" data-modal="modal5"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.25217" height="24.48233" viewBox="0,0,105.25217,105.48233"><g transform="translate(-187.37391,-127.25743)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill-rule="nonzero" stroke="#ffffff" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M191.87391,180.12801c0,-30.45136 14.55712,-48.43474 48.11175,-48.37041c35.36688,0.0678 48.851,18.17864 48.11174,48.37041c-0.75808,30.96049 -17.9202,47.84858 -48.11174,48.11175c-29.67536,0.25867 -48.11175,-17.40172 -48.11175,-48.11175z" fill="none" stroke-width="9" stroke-linecap="butt"/><path d="M240.15569,202.0983c0,0 -2.35748,-2.62566 -2.35748,-15.21646c0,-12.44357 2.35748,-15.43077 2.35748,-15.43077" fill="none" stroke-width="9" stroke-linecap="round"/><path d="M235.46245,155.78973c0,-2.48528 2.01472,-4.5 4.5,-4.5c2.48528,0 4.5,2.01472 4.5,4.5c0,2.48528 -2.01472,4.5 -4.5,4.5c-2.48528,0 -4.5,-2.01472 -4.5,-4.5z" fill="#ffffff" stroke-width="0.5" stroke-linecap="butt"/></g></g></svg></div></button>
+                    </div>
+                </div>
+                <hr class="separatorcolor">
+                <div class="text_block">
+                    <img width="230px" height="230px" src="files\old\v0.5.png">
+                    <div class="menu_buttons_for_versions">
+                        <a href="files\apk files\GradeCalc v0.5.apk" style="text-decoration: none;"><button style="display: flex; align-items: center;"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.00265" height="23.85134" viewBox="0,0,100.00265,100.85134"><g transform="translate(-191.49867,-133.40049)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="none" fill-rule="nonzero" stroke="#e6e6e6" stroke-width="9" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M194.99867,222.09951c0,0 30.73563,0.65232 45.81672,0.65232c14.91802,0 44.18593,-0.65232 44.18593,-0.65232"/><path d="M240.18482,221.22775v-83.32726"/><path d="M203.74573,186.7794c0,0 9.17891,4.42522 19.66383,14.59382c10.04738,9.74425 14.63386,19.70387 14.63386,19.70387"/><path d="M242.09943,221.07709c0,0 8.22665,-12.3662 16.83406,-21.39708c9.26753,-9.72347 17.46362,-12.90061 17.46362,-12.90061"/></g></g></svg></div>
+                            <span style="margin-left: 14px;">Установить v0.5</span></button>
+                        </a>
+                        <button style="display: flex; align-items: center; margin-left: 5px;" class="button_small" id="openModalBtn6" data-modal="modal6"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.25217" height="24.48233" viewBox="0,0,105.25217,105.48233"><g transform="translate(-187.37391,-127.25743)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill-rule="nonzero" stroke="#ffffff" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M191.87391,180.12801c0,-30.45136 14.55712,-48.43474 48.11175,-48.37041c35.36688,0.0678 48.851,18.17864 48.11174,48.37041c-0.75808,30.96049 -17.9202,47.84858 -48.11174,48.11175c-29.67536,0.25867 -48.11175,-17.40172 -48.11175,-48.11175z" fill="none" stroke-width="9" stroke-linecap="butt"/><path d="M240.15569,202.0983c0,0 -2.35748,-2.62566 -2.35748,-15.21646c0,-12.44357 2.35748,-15.43077 2.35748,-15.43077" fill="none" stroke-width="9" stroke-linecap="round"/><path d="M235.46245,155.78973c0,-2.48528 2.01472,-4.5 4.5,-4.5c2.48528,0 4.5,2.01472 4.5,4.5c0,2.48528 -2.01472,4.5 -4.5,4.5c-2.48528,0 -4.5,-2.01472 -4.5,-4.5z" fill="#ffffff" stroke-width="0.5" stroke-linecap="butt"/></g></g></svg></div></button>
+                    </div>
+                </div>
+                <hr class="separatorcolor">
+                <div class="text_block">
+                    <img width="230px" height="230px" src="files\old\v0.6.png">
+                    <div class="menu_buttons_for_versions">
+                        <a href="files\apk files\GradeCalc v0.6.apk" style="text-decoration: none;"><button style="display: flex; align-items: center;"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.00265" height="23.85134" viewBox="0,0,100.00265,100.85134"><g transform="translate(-191.49867,-133.40049)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="none" fill-rule="nonzero" stroke="#e6e6e6" stroke-width="9" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M194.99867,222.09951c0,0 30.73563,0.65232 45.81672,0.65232c14.91802,0 44.18593,-0.65232 44.18593,-0.65232"/><path d="M240.18482,221.22775v-83.32726"/><path d="M203.74573,186.7794c0,0 9.17891,4.42522 19.66383,14.59382c10.04738,9.74425 14.63386,19.70387 14.63386,19.70387"/><path d="M242.09943,221.07709c0,0 8.22665,-12.3662 16.83406,-21.39708c9.26753,-9.72347 17.46362,-12.90061 17.46362,-12.90061"/></g></g></svg></div>
+                            <span style="margin-left: 14px;">Установить v0.6</span></button>
+                        </a>
+                        <button style="display: flex; align-items: center; margin-left: 5px;" class="button_small" id="openModalBtn7" data-modal="modal7"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.25217" height="24.48233" viewBox="0,0,105.25217,105.48233"><g transform="translate(-187.37391,-127.25743)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill-rule="nonzero" stroke="#ffffff" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M191.87391,180.12801c0,-30.45136 14.55712,-48.43474 48.11175,-48.37041c35.36688,0.0678 48.851,18.17864 48.11174,48.37041c-0.75808,30.96049 -17.9202,47.84858 -48.11174,48.11175c-29.67536,0.25867 -48.11175,-17.40172 -48.11175,-48.11175z" fill="none" stroke-width="9" stroke-linecap="butt"/><path d="M240.15569,202.0983c0,0 -2.35748,-2.62566 -2.35748,-15.21646c0,-12.44357 2.35748,-15.43077 2.35748,-15.43077" fill="none" stroke-width="9" stroke-linecap="round"/><path d="M235.46245,155.78973c0,-2.48528 2.01472,-4.5 4.5,-4.5c2.48528,0 4.5,2.01472 4.5,4.5c0,2.48528 -2.01472,4.5 -4.5,4.5c-2.48528,0 -4.5,-2.01472 -4.5,-4.5z" fill="#ffffff" stroke-width="0.5" stroke-linecap="butt"/></g></g></svg></div></button>
+                    </div>
+                </div>
+                <hr class="separatorcolor">
+                <div class="text_block">
+                    <img width="230px" height="230px" src="files\old\v0.7.png">
+                    <div class="menu_buttons_for_versions">
+                        <a href="files\apk files\GradeCalc v0.7.apk" style="text-decoration: none;"><button style="display: flex; align-items: center;"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.00265" height="23.85134" viewBox="0,0,100.00265,100.85134"><g transform="translate(-191.49867,-133.40049)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="none" fill-rule="nonzero" stroke="#e6e6e6" stroke-width="9" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M194.99867,222.09951c0,0 30.73563,0.65232 45.81672,0.65232c14.91802,0 44.18593,-0.65232 44.18593,-0.65232"/><path d="M240.18482,221.22775v-83.32726"/><path d="M203.74573,186.7794c0,0 9.17891,4.42522 19.66383,14.59382c10.04738,9.74425 14.63386,19.70387 14.63386,19.70387"/><path d="M242.09943,221.07709c0,0 8.22665,-12.3662 16.83406,-21.39708c9.26753,-9.72347 17.46362,-12.90061 17.46362,-12.90061"/></g></g></svg></div>
+                            <span style="margin-left: 14px;">Установить v0.7</span></button>
+                        </a>
+                        <button style="display: flex; align-items: center; margin-left: 5px;" class="button_small" id="openModalBtn8" data-modal="modal8"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.25217" height="24.48233" viewBox="0,0,105.25217,105.48233"><g transform="translate(-187.37391,-127.25743)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill-rule="nonzero" stroke="#ffffff" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M191.87391,180.12801c0,-30.45136 14.55712,-48.43474 48.11175,-48.37041c35.36688,0.0678 48.851,18.17864 48.11174,48.37041c-0.75808,30.96049 -17.9202,47.84858 -48.11174,48.11175c-29.67536,0.25867 -48.11175,-17.40172 -48.11175,-48.11175z" fill="none" stroke-width="9" stroke-linecap="butt"/><path d="M240.15569,202.0983c0,0 -2.35748,-2.62566 -2.35748,-15.21646c0,-12.44357 2.35748,-15.43077 2.35748,-15.43077" fill="none" stroke-width="9" stroke-linecap="round"/><path d="M235.46245,155.78973c0,-2.48528 2.01472,-4.5 4.5,-4.5c2.48528,0 4.5,2.01472 4.5,4.5c0,2.48528 -2.01472,4.5 -4.5,4.5c-2.48528,0 -4.5,-2.01472 -4.5,-4.5z" fill="#ffffff" stroke-width="0.5" stroke-linecap="butt"/></g></g></svg></div></button>
+                    </div>
+                </div>
+                <hr class="separatorcolor">
+                <div class="text_block">
+                    <img width="230px" height="230px" src="files\old\v0.8.png">
+                    <div class="menu_buttons_for_versions">
+                        <a href="files\apk files\GradeCalc v0.8.apk" style="text-decoration: none;"><button style="display: flex; align-items: center;"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.00265" height="23.85134" viewBox="0,0,100.00265,100.85134"><g transform="translate(-191.49867,-133.40049)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="none" fill-rule="nonzero" stroke="#e6e6e6" stroke-width="9" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M194.99867,222.09951c0,0 30.73563,0.65232 45.81672,0.65232c14.91802,0 44.18593,-0.65232 44.18593,-0.65232"/><path d="M240.18482,221.22775v-83.32726"/><path d="M203.74573,186.7794c0,0 9.17891,4.42522 19.66383,14.59382c10.04738,9.74425 14.63386,19.70387 14.63386,19.70387"/><path d="M242.09943,221.07709c0,0 8.22665,-12.3662 16.83406,-21.39708c9.26753,-9.72347 17.46362,-12.90061 17.46362,-12.90061"/></g></g></svg></div>
+                            <span style="margin-left: 14px;">Установить v0.8</span></button>
+                        </a>
+                        <button style="display: flex; align-items: center; margin-left: 5px;" class="button_small" id="openModalBtn9" data-modal="modal9"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.25217" height="24.48233" viewBox="0,0,105.25217,105.48233"><g transform="translate(-187.37391,-127.25743)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill-rule="nonzero" stroke="#ffffff" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M191.87391,180.12801c0,-30.45136 14.55712,-48.43474 48.11175,-48.37041c35.36688,0.0678 48.851,18.17864 48.11174,48.37041c-0.75808,30.96049 -17.9202,47.84858 -48.11174,48.11175c-29.67536,0.25867 -48.11175,-17.40172 -48.11175,-48.11175z" fill="none" stroke-width="9" stroke-linecap="butt"/><path d="M240.15569,202.0983c0,0 -2.35748,-2.62566 -2.35748,-15.21646c0,-12.44357 2.35748,-15.43077 2.35748,-15.43077" fill="none" stroke-width="9" stroke-linecap="round"/><path d="M235.46245,155.78973c0,-2.48528 2.01472,-4.5 4.5,-4.5c2.48528,0 4.5,2.01472 4.5,4.5c0,2.48528 -2.01472,4.5 -4.5,4.5c-2.48528,0 -4.5,-2.01472 -4.5,-4.5z" fill="#ffffff" stroke-width="0.5" stroke-linecap="butt"/></g></g></svg></div></button>
+                    </div>
+                </div>
+                <hr class="separatorcolor">
+                <div class="text_block">
+                    <img width="230px" height="230px" src="files\old\v0.9.png">
+                    <div class="menu_buttons_for_versions">
+                        <a href="files\apk files\GradeCalc v0.9.apk" style="text-decoration: none;"><button style="display: flex; align-items: center;"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.00265" height="23.85134" viewBox="0,0,100.00265,100.85134"><g transform="translate(-191.49867,-133.40049)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="none" fill-rule="nonzero" stroke="#e6e6e6" stroke-width="9" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M194.99867,222.09951c0,0 30.73563,0.65232 45.81672,0.65232c14.91802,0 44.18593,-0.65232 44.18593,-0.65232"/><path d="M240.18482,221.22775v-83.32726"/><path d="M203.74573,186.7794c0,0 9.17891,4.42522 19.66383,14.59382c10.04738,9.74425 14.63386,19.70387 14.63386,19.70387"/><path d="M242.09943,221.07709c0,0 8.22665,-12.3662 16.83406,-21.39708c9.26753,-9.72347 17.46362,-12.90061 17.46362,-12.90061"/></g></g></svg></div>
+                            <span style="margin-left: 14px;">Установить v0.9</span></button>
+                        </a>
+                        <button style="display: flex; align-items: center; margin-left: 5px;" class="button_small" id="openModalBtn10" data-modal="modal10"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.25217" height="24.48233" viewBox="0,0,105.25217,105.48233"><g transform="translate(-187.37391,-127.25743)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill-rule="nonzero" stroke="#ffffff" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M191.87391,180.12801c0,-30.45136 14.55712,-48.43474 48.11175,-48.37041c35.36688,0.0678 48.851,18.17864 48.11174,48.37041c-0.75808,30.96049 -17.9202,47.84858 -48.11174,48.11175c-29.67536,0.25867 -48.11175,-17.40172 -48.11175,-48.11175z" fill="none" stroke-width="9" stroke-linecap="butt"/><path d="M240.15569,202.0983c0,0 -2.35748,-2.62566 -2.35748,-15.21646c0,-12.44357 2.35748,-15.43077 2.35748,-15.43077" fill="none" stroke-width="9" stroke-linecap="round"/><path d="M235.46245,155.78973c0,-2.48528 2.01472,-4.5 4.5,-4.5c2.48528,0 4.5,2.01472 4.5,4.5c0,2.48528 -2.01472,4.5 -4.5,4.5c-2.48528,0 -4.5,-2.01472 -4.5,-4.5z" fill="#ffffff" stroke-width="0.5" stroke-linecap="butt"/></g></g></svg></div></button>
+                    </div>
+                </div>
+                <hr class="separatorcolor">
+                <div class="text_block">
+                    <img height="200px" src="files\old\v1.0.png">
+                    <div class="menu_buttons_for_versions">
+                        <a href="files\apk files\GradeCalc v1.0.apk" style="text-decoration: none;"><button style="display: flex; align-items: center;"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.00265" height="23.85134" viewBox="0,0,100.00265,100.85134"><g transform="translate(-191.49867,-133.40049)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="none" fill-rule="nonzero" stroke="#e6e6e6" stroke-width="9" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M194.99867,222.09951c0,0 30.73563,0.65232 45.81672,0.65232c14.91802,0 44.18593,-0.65232 44.18593,-0.65232"/><path d="M240.18482,221.22775v-83.32726"/><path d="M203.74573,186.7794c0,0 9.17891,4.42522 19.66383,14.59382c10.04738,9.74425 14.63386,19.70387 14.63386,19.70387"/><path d="M242.09943,221.07709c0,0 8.22665,-12.3662 16.83406,-21.39708c9.26753,-9.72347 17.46362,-12.90061 17.46362,-12.90061"/></g></g></svg></div>
+                            <span style="margin-left: 14px;">Установить v1.0</span></button>
+                        </a>
+                        <button style="display: flex; align-items: center; margin-left: 5px;" class="button_small" id="openModalBtn11" data-modal="modal11"><div style="margin-left: 5px; margin-top: 5px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.25217" height="24.48233" viewBox="0,0,105.25217,105.48233"><g transform="translate(-187.37391,-127.25743)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill-rule="nonzero" stroke="#ffffff" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M191.87391,180.12801c0,-30.45136 14.55712,-48.43474 48.11175,-48.37041c35.36688,0.0678 48.851,18.17864 48.11174,48.37041c-0.75808,30.96049 -17.9202,47.84858 -48.11174,48.11175c-29.67536,0.25867 -48.11175,-17.40172 -48.11175,-48.11175z" fill="none" stroke-width="9" stroke-linecap="butt"/><path d="M240.15569,202.0983c0,0 -2.35748,-2.62566 -2.35748,-15.21646c0,-12.44357 2.35748,-15.43077 2.35748,-15.43077" fill="none" stroke-width="9" stroke-linecap="round"/><path d="M235.46245,155.78973c0,-2.48528 2.01472,-4.5 4.5,-4.5c2.48528,0 4.5,2.01472 4.5,4.5c0,2.48528 -2.01472,4.5 -4.5,4.5c-2.48528,0 -4.5,-2.01472 -4.5,-4.5z" fill="#ffffff" stroke-width="0.5" stroke-linecap="butt"/></g></g></svg></div></button>
+                    </div>
+                </div>               
+            </div>
+            <div class="separatorcolor2"></div>
+            <div class="nav">
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84.09013" height="95.1695" viewBox="0,0,84.09013,95.1695"><g transform="translate(-197.95494,-132.41525)"><g fill="none" class="svg_color" stroke-width="9" stroke-linecap="round" stroke-miterlimit="10"><path d="M202.45495,166.16578c0,0 0.87874,18.49244 0.87874,27.86192c0,9.53676 -0.87874,28.8657 -0.87874,28.8657"/><path d="M277.54402,222.73634c0,0 -1.45739,-18.45669 -1.45739,-27.78708c0,-9.5726 1.45739,-28.94053 1.45739,-28.94053"/><path d="M238.50501,137.80197c0,0 -2.24268,4.34825 -14.79966,15.19861c-5.88901,5.08864 -21.016,12.70404 -21.016,12.70404"/><path d="M277.54508,164.80933c0,0 -12.01876,-4.39343 -21.21919,-11.67845c-11.84443,-10.13864 -16.84265,-16.21563 -16.84265,-16.21563"/><path d="M204.0772,223.08475h25.31646"/><path d="M275.80715,223.08475h-25.78528"/><path d="M249.74419,221.44386c0,0 -0.81444,-9.80228 -0.81444,-14.88106c0,-5.37482 0.81444,-16.53009 0.81444,-16.53009"/><path d="M229.42774,190.11007c0,0 0.53582,11.03612 0.53582,16.36702c0,5.13191 -0.53582,15.04413 -0.53582,15.04413"/><path d="M231.03454,190.03271h16.87763"/></g></g></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="download.html" class="active">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99.00265" height="93.85134" viewBox="0,0,99.00265,93.85134"><g transform="translate(-190.49867,-133.40049)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="none" fill-rule="nonzero" class="svg_active" stroke-width="9" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M194.99867,222.09951c0,0 30.73563,0.65232 45.81672,0.65232c14.91802,0 44.18593,-0.65232 44.18593,-0.65232"/><path d="M240.18482,221.22775v-83.32726"/><path d="M203.74573,186.7794c0,0 9.17891,4.42522 19.66383,14.59382c10.04738,9.74425 14.63386,19.70387 14.63386,19.70387"/><path d="M242.09943,221.07709c0,0 8.22665,-12.3662 16.83406,-21.39708c9.26753,-9.72347 17.46362,-12.90061 17.46362,-12.90061"/></g></g></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://telegram.org/js/telegram-web-app.js?56"></script>
+<script>
+
+    document.ondragstart = noselect;
+    document.onselectstart = noselect;
+    document.oncontextmenu = noselect;
+    function noselect() {return false;}
+
+    const openModalBtns = document.querySelectorAll("[id^='openModalBtn']"); // Получаем все кнопки открытия по префиксу id
+    const closeModalBtns = document.querySelectorAll("[data-close-modal]");
+    const modalOverlay = document.getElementById("modalOverlay");
+    const modals = document.querySelectorAll(".modal");
+
+    // Функция для открытия модального окна
+    openModalBtns.forEach(button => {
+        button.addEventListener("click", function() {
+            const modalId = this.dataset.modal; // Получаем id нужного модального окна из data-modal
+            const modal = document.getElementById(modalId);
+
+            // Сначала скрываем все модальные окна
+            modals.forEach(m => m.style.display = "none");
+
+            // Затем показываем нужный модальный окно
+            modal.style.display = "block";
+            modalOverlay.style.display = "flex";
+
+            // Предотвращаем прокрутку фона
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    // Функция для закрытия модального окна
+    closeModalBtns.forEach(button => {
+        button.addEventListener("click", function() {
+            modals.forEach(m => m.style.display = "none"); // Скрываем все модальные окна
+            modalOverlay.style.display = "none";
+            document.body.style.overflow = 'auto'; // Восстанавливаем прокрутку
+        });
+    });
+
+    // Закрытие при клике вне модального окна
+    window.addEventListener('click', function(event) {
+        if (event.target == modalOverlay) {
+            modals.forEach(m => m.style.display = "none"); // Скрываем все модальные окна
+            modalOverlay.style.display = "none";
+            document.body.style.overflow = 'auto';
+        }
+    });
+
+
+    // Добавим закрытие по нажатию Escape
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            modals.forEach(m => m.style.display = "none");
+            modalOverlay.style.display = 'none';
+            document.body.style.overflow = 'auto'; // Восстанавливаем прокрутку
+        }
+    });
+</script>
+</html>
