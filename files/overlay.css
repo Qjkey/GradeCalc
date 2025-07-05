@@ -1,0 +1,28 @@
+/* Стили для оверлея (затемненного фона) */
+.overlay {
+    display: none; /* Скрыт по умолчанию */
+    position: fixed; /* Фиксированное положение */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.603); /* Черный цвет с полупрозрачностью */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Отображать поверх всего контента */
+}
+
+/* Стили для информационного окошка */
+.modal {
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+    color: #e6e6e6;
+}
+
+.modal h2 {
+    margin-top: 0;
+}
